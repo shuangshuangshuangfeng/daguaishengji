@@ -4,11 +4,11 @@
 
 ### 第一章
 
-<table border="1">
+<table border="1" width="100%" >
     <tr>
-        <th>PPT</th>
-        <th>作业</th>
-        <th>项目</th>
+        <th width="20%">PPT</th>
+        <th width="40%">作业</th>
+        <th width="40%">项目</th>
     </tr>
     <tr>
         <td><a href="/passage1/Homework0-SetupAccount/submit.md">提交</a></td>
