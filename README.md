@@ -11,7 +11,8 @@
         <th>项目</th>
     </tr>
     <tr>
-        <td>[我的简介](/passage1/Homework0-SetupAccount/submit.md)</td>
+        <td><a href="/passage1/Homework0-SetupAccount/submit.md">提交</a></td>
+        <td>row 2, cell 2</td>
         <td>row 2, cell 2</td>
     </tr>
 </table>
