@@ -11,6 +11,8 @@
 | -- | -- | -- |
 | <a href="/passage1/slide_annotated.pdf">PPT1</a> | <a href='/passage1/Homework0-SetupAccount/submit.md'>balabala</a> | balabala |
 
+--------------------------------
+
 
 - <a href="/passage1/slide_annotated.pdf">时间复杂度与空间复杂度</a> 
 - <a href="/passage1/slide_annotated.pdf">机器翻译系统架构1</a> 
@@ -24,6 +26,18 @@
 
 
 ### 第四章
+
+
+### 第五章
+
+
+### 第六章
+
+
+### 第七章
+
+
+### 第八章
 
 
 
