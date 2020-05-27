@@ -15,8 +15,11 @@
 
 
 - <a href="/passage1/slide_annotated.pdf">时间复杂度与空间复杂度</a> 
-- <a href="/passage1/slide_annotated.pdf">机器翻译系统架构1</a> 
+- <a href="/passage1/slide_annotated.pdf">机器翻译系统架构</a> 
 - <a href="/passage1/slide_annotated.pdf">动态规划</a> 
+
+
+
 
 
 ### 第二章
