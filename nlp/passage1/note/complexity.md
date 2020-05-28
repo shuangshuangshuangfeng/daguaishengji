@@ -10,11 +10,11 @@
 1. 
 ```
 int a = 0, b = 0, i=0, c=0;
-for(i=0; i<N; i++>){
+for(i=0; i<N; i++){
     a = i+1;
     b = i+2;
 }
-for(i=0; i<N; i++>){
+for(i=0; i<N; i++){
     c = j;
 }
 
