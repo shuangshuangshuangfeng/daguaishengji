@@ -1,7 +1,6 @@
 #### 请写一下你的知乎个人链接
-- 链接：
+- https://www.zhihu.com/people/trina-62-32：
 
-参考：https://www.zhihu.com/people/wenzhe-li
 
 
 #### 请列出至少5位你感兴趣的国外顶尖NLP专家以及他们目前所在单位和主要研究领域：

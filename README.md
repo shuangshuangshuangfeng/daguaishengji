@@ -2,6 +2,7 @@
 =======
 
 
+## NLP相关
 
 ### 第一章
 
@@ -31,16 +32,18 @@
 ### 第四章
 
 
-### 第五章
-
-
-### 第六章
-
-
-### 第七章
-
 
 ### 第八章
 
 
 
+## Java相关
+
+### 基础
+
+- <a href="/passage1/note/complexity.md">JDK和JRE的区别</a> 
+- <a href="/passage1/note/complexity.md">==和equals的区别</a> 
+- <a href="/passage1/note/complexity.md">fianl在java中的作用</a> 
+
+自己去找真正的答案！ 不要查别人说的答案！
+https://baijiahao.baidu.com/s?id=1638910057288833505&wfr=spider&for=pc
