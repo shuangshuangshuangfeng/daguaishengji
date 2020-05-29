@@ -43,5 +43,12 @@
 - <a href="/passage1/note/complexity.md">==和equals的区别</a> 
 - <a href="/passage1/note/complexity.md">fianl在java中的作用</a> 
 
+
+
+-----------------------------------
+
+## 其他
+- <a href="/others/CCA/Canonical_Correlation_Analysis.md">典型相关分析</a>
+
 自己去找真正的答案！ 不要查别人说的答案！ 三天一个问题，认真奥！
 https://baijiahao.baidu.com/s?id=1638910057288833505&wfr=spider&for=pc
