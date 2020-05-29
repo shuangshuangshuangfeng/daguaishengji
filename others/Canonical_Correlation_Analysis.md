@@ -14,11 +14,11 @@
 
 **例子：**<br>
 考察一个人解题能力X（解题速度x1, 接替正确率x2）与他的阅读能力（阅读速度y1,理解程度y2）之间的关系，那么形式化为：<br>
-![gongshi](https://github.com/shuangshuangshuangfeng/daguaishengji/blob/master/others/CCA/gongsh3.png?raw=true) <br>
+![gongshi](https://github.com/shuangshuangshuangfeng/daguaishengji/blob/master/others/CCA/gongshi3.png?raw=true) <br>
 然后使用皮尔逊相关系数(Pearson相关系数)：<br>
-![gongshi](https://github.com/shuangshuangshuangfeng/daguaishengji/blob/master/others/CCA/gongsh4.png?raw=true) 来度量``u``和``v``的关系，我们期望寻求一组最优的解``a``和``b``，使得``Corr(u,v)``最大，这样得到的``a``和``b``就是使得``u``和``v``就有最大关联的权重，
+![gongshi](https://github.com/shuangshuangshuangfeng/daguaishengji/blob/master/others/CCA/gongshi4.png?raw=true) 来度量``u``和``v``的关系，我们期望寻求一组最优的解``a``和``b``，使得``Corr(u,v)``最大，这样得到的``a``和``b``就是使得``u``和``v``就有最大关联的权重。
 
-### 典型相关分析(Canonical correlation Analysis， CCA)
+### 2. 典型相关分析(Canonical correlation Analysis， CCA)
 
 1. 首先寻找两组变量的线性组合，被称为典型变量，而他们之间的相关性是最大的。
 2. 然后，再寻找第二对典型变量，使他们之间的相关性是第二大的，以此类推，知道相关性被提取完。即典型变量对的数目等于较短的数据集的变量数目。
