@@ -36,13 +36,16 @@
 
 
 
-
-
 ## 基于典型相关分析的SSVEP分类
 
+当CCA应用于提取SSVEP响应频率时，两组多变量分别定义为``X``和``Y``， 其中``X``是``EEG``的多``channel``信号。<br>
+![gongshi](https://github.com/shuangshuangshuangfeng/daguaishengji/blob/master/others/CCA/gongshi5.png?raw=true) <br>
+式子中，``channel``的下标表示不同信道的编号，``Y``是与刺激频率``f``相关的参考信号:<br>
+![gongshi](https://github.com/shuangshuangshuangfeng/daguaishengji/blob/master/others/CCA/gongshi6.png?raw=true) <br>
 
-
-
+式中，``N``是``f``的谐波个数，``X``中``channel``数量也是``N``。<br>
+![gongshi](https://github.com/shuangshuangshuangfeng/daguaishengji/blob/master/others/CCA/gongshi7.png?raw=true) <br>
+通过计算出``X``和``Y``的相关系数``ρ``的最大值，选取不同的``f``，计算``ρ``，则最大``ρ``对应的频率被认为是SSVEP的响应频率。
 
 
 

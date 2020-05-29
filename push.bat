@@ -2,11 +2,9 @@ git status
 
 git add ./
 
-echo please enter commit content
+echo please enter commit note
 set /p content=
 
-git commit -m '%content%'
-
-git push origin master
+git commit -m '%content%' && git pull -r origin master && git push origin master
 
 
