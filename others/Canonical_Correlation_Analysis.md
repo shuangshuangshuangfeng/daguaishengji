@@ -4,8 +4,12 @@
 
 在线性回归中，我们经常使用直线来拟合样本点，寻找``n``维特征向量``X``和输出结果``Y``之间的**线性关系**。其中 ``X∈R(n)， Y∈R``. ``Y``也可以是多维，我们希望分析出``X ``和``Y``的关系。<br>
 假设``X∈R(n)， Y∈R(m)``， 那么可以建立等式``Y = AX``如下:<br>
-![gongshi](https://raw.githubusercontent.com/shuangshuangshuangfeng/daguaishengji/master/others/CCA/gongshi.jpg?token=AFQPI7LS4PGOXOJFRGGREJC62DJFA)
-其中![gongshi](https://raw.githubusercontent.com/shuangshuangshuangfeng/daguaishengji/master/others/CCA/gongshi2.png?token=AFQPI7OW7Q5IBFXPL3OECE262DJDM),形式和线性回归一样，需要训练``m``次得到``m``个``W(i)``。<br>
+![gongshi](https://github.com/shuangshuangshuangfeng/daguaishengji/blob/master/others/CCA/gongshi.jpg?raw=true)
+其中![gongshi](https://github.com/shuangshuangshuangfeng/daguaishengji/blob/master/others/CCA/gongshi2.png?raw=true),形式和线性回归一样，需要训练``m``次得到``m``个``W(i)``。<br>
+
+这样做的缺点是： ``Y``中每一个特征都与``X``的所有特征相关联，``Y``中的特征之间没有什么联系。
+
+也就是说将``X``和``Y``看作各自的整体，考察这两个整体之间的关系，我们将整体表示成X和Y各自特征间的线性组合， 也就是考察``aTx``和``bTy``之间的关系。
 
 
 典型相关分析(Canonical correlation Analysis， CCA)
