@@ -91,7 +91,7 @@ i = 0， 操作2
 
 ### 复杂例子
 
-4. 
+详细见<a href="/passage1/note/merge_sort.md">归并排序</a> 和<a href="/passage1/note/master_theorem.md">主方法定理</a> 
 
 
 
