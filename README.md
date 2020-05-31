@@ -14,8 +14,9 @@
 
 
 - <a href="/nlp/passage1/note/complexity.md">时间复杂度与空间复杂度</a> 
-- <a href="/nlp/passage1/note/complexity.md">机器翻译系统架构</a> 
-- <a href="/nlp/passage1/note/complexity.md">动态规划</a> 
+- <a href="/nlp/passage1/note/master_theorem.md">主定理方法</a> 
+- <a href="/nlp/passage1/note/merge_sort.md">归并排序</a> 
+- <a href="/nlp/passage1/note/complexity.md">斐波那契数列</a> 
 
 
 
