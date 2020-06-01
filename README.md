@@ -40,7 +40,7 @@
 
 ### 基础
 
-- <a href="/passage1/note/complexity.md">JDK和JRE的区别</a> 
+- <a href="/java/528-61/jdk_jre.md">JDK和JRE的区别</a> 
 - <a href="/passage1/note/complexity.md">==和equals的区别</a> 
 - <a href="/passage1/note/complexity.md">fianl在java中的作用</a> 
 
