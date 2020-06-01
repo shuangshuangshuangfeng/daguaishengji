@@ -27,8 +27,22 @@ n = ... --> h=n-2
 ### 空间复杂度
 主要是为了介绍**递归方式下的空间复杂度** 。<br>
 当一个函数调用另一个函数的适合，要进行上下文的切换，每次上下文切换都需要有内存空间的使用，我们称使用一个单位内存空间。
+![gongshi](https://github.com/shuangshuangshuangfeng/daguaishengji/blob/master/nlp/passage1/note/gongshi5.png?raw=true) <br>
+``fib(8)``最多占用8个单位内存空间，因此它的空间复杂度为``O(1)``。
 
+### 使用循环表示数列
+使用数组来存实例,这种思路叫``dynamic programming``动态规划，就是能复用的尽量去复用。
+```
+def fib(n):
+    temp = np.zeros(n)
+    temp[0] = 1
+    temp[1] = 1
+    for i in range(2, n):
+        temp[i] = temp[i-2]+temp[i-1]
 
+    return temp[n-1]
+```
+时间复杂度为``O(N)``，但是算法中，第``n``个数中仅仅需要前两个数字，所以额外的占用了一些其他内存空间，仅仅维护``n``前面两个数字就可以了。
 
 
 ---------------------------
