@@ -8,9 +8,11 @@
 
 
 
-| PPT | PPT2 | PPT3 | 项目 |
+| PPT | PPT2 | PPT3 | 项目 | balabala | 
 | -- | -- | -- | -- | -- |
-| <a href="/nlp/passage1/slide_annotated_1.pdf">PPT1</a> | <a href="/nlp/passage1/slide_annotated_2.pdf">PPT2</a> | balabala | bababababa |
+| <a href="/nlp/passage1/slide_annotated_1.pdf">PPT1</a> | <a href="/nlp/passage1/slide_annotated_2.pdf">PPT2</a> | balabala | bababababa | bababababa |
+
+
 
 
 - <a href="/nlp/passage1/note/complexity.md">时间复杂度与空间复杂度</a> 
@@ -23,9 +25,9 @@
 
 ### 第二章
 
-| PPT | PPT2 | PPT3 | 项目 |
+| PPT | PPT2 | PPT3 | 项目 | balabala | 
 | -- | -- | -- | -- | -- |
-| <a href="/nlp/passage1/slide_annotated_1.pdf">balababababab</a> | <a href="/nlp/passage1/slide_annotated_2.pdf">lalalalaalal</a> | balabala | bababababa |
+| <a href="/nlp/passage1/slide_annotated_1.pdf">PPT1</a> | <a href="/nlp/passage1/slide_annotated_2.pdf">PPT2</a> | balabala | bababababa | bababababa |
 
 
 
