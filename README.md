@@ -26,7 +26,7 @@
 ### 第二章
 
 - <a href="/nlp/passage2/notes/max_matching.md">语义分割-最大匹配</a> 
-- <a href="/nlp/passage2/notes/master_theorem.md">主定理方法</a> 
+- <a href="/nlp/passage2/notes/master_theorem.md">balabalabal</a> 
 
 
 ### 第三章
@@ -44,8 +44,8 @@
 
 ### 基础
 
-- <a href="/java/528-61/jdk_jre.md">JDK和JRE的区别</a> 
-- <a href="/passage1/note/complexity.md">==和equals的区别</a> 
+- <a href="/java/base/528-61/jdk_jre.md">JDK和JRE的区别</a> 
+- <a href="/java/base/62-64/equals.md">==和equals的区别</a> 
 - <a href="/passage1/note/complexity.md">fianl在java中的作用</a> 
 - <a href="/passage1/note/complexity.md">java中操作字符串都有哪些类</a> 
 - <a href="/passage1/note/complexity.md">String str="i"与 String str=new String("i")</a> 
