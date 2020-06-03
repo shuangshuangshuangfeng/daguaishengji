@@ -25,10 +25,8 @@
 
 ### 第二章
 
-| PPT | PPT2 | PPT3 | 项目 | balabala | 
-| -- | -- | -- | -- | -- |
-| <a href="/nlp/passage1/slide_annotated_1.pdf">PPT1</a> | <a href="/nlp/passage1/slide_annotated_2.pdf">PPT2</a> | balabala | bababababa | bababababa |
-
+- <a href="/nlp/passage2/notes/max_matching.md">语义分割-最大匹配</a> 
+- <a href="/nlp/passage2/notes/master_theorem.md">主定理方法</a> 
 
 
 ### 第三章
