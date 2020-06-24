@@ -101,17 +101,22 @@ public int func(int[] A){
 
 **解题:**<br/>
 
-1. **目标**: 给定一个数组A，求数组中不连续元素的最大和
-2. **状态**: 定义一个数组``M``，数组上的第``j``个元素用来表示截止到第``j``个元素，``A[0-j]``元素的不连续元素和的最大值为``M[j]``
-3. **状态转移方程**: ``M(j) = max{M[j-2]+A[j], M[j-1]}``
+1. **目标**: 给定一个数组A，求数组中连续严格递增的数列长度。
+2. **状态**: 定义一个数组``M``，数组上的第``j``个元素用来表示截止到第``j``个元素，``A[0-j]``元素的严格递增的数列长度的最大值为``M[j]``
+3. **状态转移方程**: 定义当前递增起始点为``pre_index``,  ``if(A[j]>A[j-1]): M(j) = max{M[j-1], j-pre_index}``
 
 ```
 public int func(int[] A){
     int[] M = new int[A.length];
-    M[0] = A[0];
-    M[1] = Math.max(A[0], A[1]);
-    for(int i=2; i<A.length; i++){
-        M[j] = Math.max(M[j-2]+A[j], A[j]);
+    M[0] = 1;
+    int pre_index = 0;
+    for(int i=1; i<A.length; i++){
+        if(A[i] > A[i-1]){
+            M[i] = Math.max(M[i-1], i-pre_index);
+        }else{
+            pre_index = 1;
+            M[i] = Math.max(M[i-1], 1);
+        }
     }
     return M[A.length-1];
 }
