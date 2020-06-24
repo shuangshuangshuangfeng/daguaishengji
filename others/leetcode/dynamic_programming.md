@@ -82,6 +82,40 @@ public int func(int[] A){
 ``LeetCode``链接: [https://leetcode-cn.com/problems/longest-continuous-increasing-subsequence/](https://leetcode-cn.com/problems/longest-continuous-increasing-subsequence/  "123")
 
 
+**题目描述:**<br/>
+给定一个未经排序的整数数组，找到最长且连续的的递增序列，并返回该序列的长度。 
+
+**示例:**<br/>
+```
+输入: [1,3,5,4,7]
+输出: 3
+解释: 最长连续递增序列是 [1,3,5], 长度为3。
+尽管 [1,3,5,7] 也是升序的子序列, 但它不是连续的，因为5和7在原数组里被4隔开。 
+```
+
+```
+输入: [2,2,2,2,2]
+输出: 1
+解释: 最长连续递增序列是 [2], 长度为1。
+```
+
+**解题:**<br/>
+
+1. **目标**: 给定一个数组A，求数组中不连续元素的最大和
+2. **状态**: 定义一个数组``M``，数组上的第``j``个元素用来表示截止到第``j``个元素，``A[0-j]``元素的不连续元素和的最大值为``M[j]``
+3. **状态转移方程**: ``M(j) = max{M[j-2]+A[j], M[j-1]}``
+
+```
+public int func(int[] A){
+    int[] M = new int[A.length];
+    M[0] = A[0];
+    M[1] = Math.max(A[0], A[1]);
+    for(int i=2; i<A.length; i++){
+        M[j] = Math.max(M[j-2]+A[j], A[j]);
+    }
+    return M[A.length-1];
+}
+```
 
 
 
