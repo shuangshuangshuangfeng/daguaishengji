@@ -114,7 +114,7 @@ public int func(int[] A){
         if(A[i] > A[i-1]){
             M[i] = Math.max(M[i-1], i-pre_index);
         }else{
-            pre_index = 1;
+            pre_index = i;
             M[i] = Math.max(M[i-1], 1);
         }
     }
