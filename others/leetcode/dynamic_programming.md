@@ -72,7 +72,7 @@ public int func(int[] A){
     M[0] = A[0];
     M[1] = Math.max(A[0], A[1]);
     for(int i=2; i<A.length; i++){
-        M[j] = Math.max(M[j-2]+A[j], A[j]);
+        M[j] = Math.max(M[j-2]+A[j], M[j-1]);
     }
     return M[A.length-1];
 }
