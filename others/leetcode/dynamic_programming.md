@@ -30,7 +30,7 @@
 2. **状态**: 定义一个数组``M``，数组上的第``j``个元素用来表示截止到第``j``个元素，``A[0-j]``元素的子串的最大值为``M[j]``
 3. **状态转移方程**: ``M(j) = max{M[j-1]+A[j], A[j]}``
 
-```
+```java
 public int func(int[] A){
     int[] M = new int[A.length];
     M[0] = A[0];
@@ -66,7 +66,7 @@ public int func(int[] A){
 2. **状态**: 定义一个数组``M``，数组上的第``j``个元素用来表示截止到第``j``个元素，``A[0-j]``元素的不连续元素和的最大值为``M[j]``
 3. **状态转移方程**: ``M(j) = max{M[j-2]+A[j], M[j-1]}``
 
-```
+```java
 public int func(int[] A){
     int[] M = new int[A.length];
     M[0] = A[0];
@@ -105,7 +105,7 @@ public int func(int[] A){
 2. **状态**: 定义一个数组``M``，数组上的第``j``个元素用来表示截止到第``j``个元素，``A[0-j]``元素的严格递增的数列长度的最大值为``M[j]``
 3. **状态转移方程**: 定义当前递增起始点为``pre_index``,  ``if(A[j]>A[j-1]): M(j) = max{M[j-1], j-pre_index}``
 
-```
+```java
 public int func(int[] A){
     int[] M = new int[A.length];
     M[0] = 1;
@@ -157,7 +157,7 @@ public int func(int[] A){
 2. **状态**: 定义一个数组``M``，数组上的第``j``个元素用来表示截止到第``j``个元素，``n``阶楼梯的爬梯方式的最大值为``M[j]``
 3. **状态转移方程**: 当爬大匹第``n``阶楼梯时，有可能是上一阶楼梯爬一阶，也有可能是上上阶楼梯爬两阶，那么``M[j] = M[j-1]+M[j-2]``.
 
-```
+```java
 public int func(int n){
     int[] M = new int[A.length];
     M[0] = 1;
