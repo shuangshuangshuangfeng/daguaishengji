@@ -77,7 +77,7 @@ public ListNode reverseKGroup(ListNode head, int k) {
 ```
 
 - 时间复杂度为O(N)
-- 空间复杂度为O(1)
+- 空间复杂度为O(N)
 
 #### 2. 尾插法
 
@@ -151,6 +151,7 @@ public ListNode reverseKGroup(ListNode head, int k) {
     ListNode new_head = _reverse(head, tail);
 
     // 将已经翻转的接上以后翻转的
+    // 这里的head 已经变成了翻转后的尾，所以是拼接尾巴
     head.next = reverseKGroup(tail, k);
     return new_head;
 }
