@@ -2,17 +2,9 @@
 =======
 
 
-## NLP相关
+## 算法与数据结构相关
 
-### 第一章
-
-
-
-| PPT | PPT2 | PPT3 | 项目 | balabala | 
-| -- | -- | -- | -- | -- |
-| <a href="/nlp/passage1/slide_annotated_1.pdf">PPT1</a> | <a href="/nlp/passage1/slide_annotated_2.pdf">PPT2</a> | balabala | bababababa | bababababa |
-
-
+### 第一章 复杂度分析
 
 
 - <a href="/nlp/passage1/note/complexity.md">时间复杂度与空间复杂度</a> 
@@ -23,13 +15,13 @@
 
 
 
-### 第二章
+### 第二章  数组、链表、跳表
 
-- <a href="/nlp/passage2/notes/max_matching.md">语义分割-最大匹配</a> 
-- <a href="/nlp/passage2/notes/master_theorem.md">balabalabal</a> 
+- <a href="/others/leetcode/%E4%B8%89%E6%95%B0%E7%9B%B8%E5%8A%A0.md">三数相加</a> 
+- <a href="/others/leetcode/k%E4%B8%AA%E4%B8%80%E7%BB%84%E7%BF%BB%E8%BD%AC%E9%93%BE%E8%A1%A8.md">k个一组翻转链表</a> 
 
 
-### 第三章
+### 第三章  栈、队列、优先队列、双端队列
 
 
 ### 第四章
