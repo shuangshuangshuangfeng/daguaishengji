@@ -18,10 +18,15 @@
 ### 第二章  数组、链表、跳表
 
 - <a href="/others/leetcode/%E4%B8%89%E6%95%B0%E7%9B%B8%E5%8A%A0.md">三数相加</a> 
+
 - <a href="/others/leetcode/k%E4%B8%AA%E4%B8%80%E7%BB%84%E7%BF%BB%E8%BD%AC%E9%93%BE%E8%A1%A8.md">k个一组翻转链表</a> 
+
+- <a href="/others/leetcode/%E5%A4%A7%E5%B0%8F%E4%B8%BA%20K%20%E4%B8%94%E5%B9%B3%E5%9D%87%E5%80%BC%E5%A4%A7%E4%BA%8E%E7%AD%89%E4%BA%8E%E9%98%88%E5%80%BC%E7%9A%84%E5%AD%90%E6%95%B0%E7%BB%84%E6%95%B0%E7%9B%AE.md">大小为 K 且平均值大于等于阈值的子数组数目</a> 
 
 
 ### 第三章  栈、队列、优先队列、双端队列
+
+- <a href="/others/leetcode/%E6%9F%B1%E7%8A%B6%E5%9B%BE%E4%B8%AD%E6%9C%80%E5%A4%A7%E7%9A%84%E9%9D%A2%E7%A7%AF.md">柱状图中最大的面积</a> 
 
 
 ### 第四章
