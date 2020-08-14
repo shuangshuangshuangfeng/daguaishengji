@@ -26,7 +26,7 @@
 
 - <a href="/others/leetcode/%E6%9F%B1%E7%8A%B6%E5%9B%BE%E4%B8%AD%E6%9C%80%E5%A4%A7%E7%9A%84%E9%9D%A2%E7%A7%AF.md">柱状图中最大的面积</a>
 - <a href="/others/leetcode/%E6%BB%91%E5%8A%A8%E7%AA%97%E5%8F%A3%E6%9C%80%E5%A4%A7%E5%80%BC.md">滑动窗口最大值</a>
-- <a href="/others/leetcode/%E6%BB%91%E5%8A%A8%E7%AA%97%E5%8F%A3%E6%9C%80%E5%A4%A7%E5%80%BC.md">设计循环双端队列</a>
+- <a href="/others/leetcode/%E8%AE%BE%E8%AE%A1%E5%BE%AA%E7%8E%AF%E5%8F%8C%E7%AB%AF%E9%98%9F%E5%88%97.md">设计循环双端队列</a>
 
 
 ### 第四章 哈希表、映射、集合
