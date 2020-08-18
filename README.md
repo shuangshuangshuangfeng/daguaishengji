@@ -31,9 +31,12 @@
 
 ### 第四章 哈希表、映射、集合
 
+- <a href="/others/leetcode/%E5%AD%97%E6%AF%8D%E5%BC%82%E4%BD%8D%E8%AF%8D%E5%88%86%E7%BB%84.md">字母异位词分组</a>
+
 ### 第五章 树、二叉树、二叉搜索树
 
 - <a href="/others/leetcode/%E5%8F%A6%E4%B8%80%E4%B8%AA%E6%A0%91%E7%9A%84%E5%AD%90%E6%A0%91.md">另一个树的子树</a>
+- <a href="/others/leetcode/%E5%8F%A6%E4%B8%80%E4%B8%AA%E6%A0%91%E7%9A%84%E5%AD%90%E6%A0%91.md">有序链表转换二叉搜索树</a>
 
 ### 第八章
 
