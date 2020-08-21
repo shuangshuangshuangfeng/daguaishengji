@@ -37,7 +37,7 @@
 
 - <a href="/others/leetcode/%E5%8F%A6%E4%B8%80%E4%B8%AA%E6%A0%91%E7%9A%84%E5%AD%90%E6%A0%91.md">另一个树的子树</a>
 - <a href="/others/leetcode/%E6%9C%89%E5%BA%8F%E9%93%BE%E8%A1%A8%E8%BD%AC%E6%8D%A2%E4%BA%8C%E5%8F%89%E6%90%9C%E7%B4%A2%E6%A0%91.md">有序链表转换二叉搜索树</a>
-- - <a href="/others/leetcode/%E9%AA%8C%E8%AF%81%E4%BA%8C%E5%8F%89%E6%90%9C%E7%B4%A2%E6%A0%91.md">验证二叉搜索树</a>
+- <a href="/others/leetcode/%E9%AA%8C%E8%AF%81%E4%BA%8C%E5%8F%89%E6%90%9C%E7%B4%A2%E6%A0%91.md">验证二叉搜索树</a>
 
 ### 第六章 泛型递归、树的递归
 
